@@ -1,0 +1,50 @@
+
+
+table,tr,td{
+    border: 1px solid black;
+    text-align: center;
+margin: auto;
+font-size: xx-large;
+background-color: black;
+color: white;
+border-spacing: 30px;
+
+    
+    
+
+}
+td{
+
+    border-radius: 180px;
+    width: 80px;
+    height: 75px;
+    border-spacing: 30px;
+}
+.A1{
+    text-align: right;
+    background-color: black;
+    
+}
+td{
+    background-color: gray;
+
+
+}
+.same{
+    background-color: red;
+
+}
+.D{
+    text-align: left;
+    padding-left:30px ;
+
+}
+
+.column1of3, .column2of3, .column3of3 {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+div{
+    border: 2px solid red;
+}

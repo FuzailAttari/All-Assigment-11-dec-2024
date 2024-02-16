@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li{
+    display: inline-block;
+    width: 130px;
+    padding-left: 10px;
+    
+}
+li:hover{
+    color: green;
+}
+
+ul{
+    border-radius: 25px; 
+    border: 1px solid wheat;
+    position: sticky;
+    top: 0px;
+    background-color: antiquewhite;
+    }
+input{
+
+    border-radius: 25px;
+    width: 239px;
+    height: 30px;
+
+}
+button{
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+.s{
+    background-color: green;
+    color: white;
+
+}
+.G{
+    color: black;
+    background-color: green;
+    color: white;
+    margin-left: 130px;
+    
+}
+
+h1{
+    padding-top: 20px;
+    margin-left: 130px;
+    font-size: 70px;
+    color: green;
+}
+p{
+    margin-left: 130px;
+}
+.clas{
+    display: flex;
+
+}
+.clas>img{
+    margin-left: 300px;
+    width: 500px;
+    border-radius: 10px;
+    padding-top: 30px;
+    
+}
+div>a{
+
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+
+    
+}
+
+
+

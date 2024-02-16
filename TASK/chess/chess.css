@@ -1,0 +1,11 @@
+
+table{
+    display: flex;
+    justify-content: center;
+    
+}
+tr{
+    width: 100px;
+    height: 100px;
+    
+}
