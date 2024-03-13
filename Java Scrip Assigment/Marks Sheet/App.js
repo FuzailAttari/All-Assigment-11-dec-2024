@@ -1,6 +1,9 @@
-
+// ================Student Date================== 
 
 var Studentname = prompt("Enter Your Name");
+
+// ================SUBJECT NAME ========================
+
 var Eng = +prompt("Enter Eng Marks");
 var Math = +prompt("Enter Math Marks");
 var Urdu = +prompt("Enter Urdu Marks");
@@ -8,6 +11,8 @@ var Computer = +prompt("Enter Computer Marks");
 var Total = Eng + Math + Urdu +Computer;
 var Percentage= (Total/400)*100;
 var Grade;
+
+// ===================Condation============================
 
 if( Percentage >= 80 ){
     Grade = "A+"
@@ -25,6 +30,8 @@ else if (Percentage >= 50){
 else{
     Grade = "Fail"
 }
+
+// ==============Print ==========================
 
 document.write(
 
