@@ -54,7 +54,7 @@ for ( i = 1;  i<=userRange; i++){
    
     document.write( `
     <center> <font color=yellow> 
-    <table border "2px" bordercolor=red width = "30%"   cellpadding= "10px" cellspacing= 5px bgcolor=black > 
+    <table border "2px" bordercolor=red width = "50%"   cellpadding= "10px" cellspacing= 5px bgcolor=black > 
     <tr>
     <td >${userInput +" "+ "X" + " " + i + " " + " = " + userInput*i+ "<br>"} </td>
 
