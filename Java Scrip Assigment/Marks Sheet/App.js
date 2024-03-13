@@ -1,3 +1,5 @@
+
+
 var Studentname = prompt("Enter Your Name");
 var Eng = +prompt("Enter Eng Marks");
 var Math = +prompt("Enter Math Marks");
