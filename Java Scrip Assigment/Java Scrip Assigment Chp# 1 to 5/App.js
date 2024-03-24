@@ -256,11 +256,78 @@
             // var Total = ((num * num1)) / num2 ;
             // alert( Total)
        
-            // ================Q-10========================
+            // // ================Q-11========================
 
+            // var currentYear= 2024;
+            // var Birthyear = 1991;
+            // var Calculate = 2024-1991;
+
+            // document.write("<h1>Age Calculator<br/></h1>");
+            // document.write(`<h2> Current Year : ${currentYear} <br>`);
+            // document.write(`Birth Year : ${Birthyear} <br>`);
+            // document.write(` They are either : ${Calculate} Year old`)
+
+            // ================Q-12========================
+
+            // var radius = 20;
+
+            // var circumference = 2 * 3.142 * radius;
+            // var area = 3.142 * radius * radius;
+
+            // document.write("<h1>The Geometrizer<br/></h1>");
+
+            // document.write("Radius if a circle: " + radius);
+            // document.write("<br/>The circumference is: " + circumference);
+            // document.write("<br/>The area is: " + area);
             
 
+            // ================Q-13========================
+
+      // var a = 10;
+
+      // document.write(`Result: <br>`)
+      // document.write(` The Value of a is ${a} <br> <br>`)
+      // document.write(`The value is ++a is ${++a}<br>`)
+      // document.write(`Now The Value of a is : ${a} <br> <br>`)
+      // document.write(` The Value of a++ is ${a++} <br> `)
+      // document.write(`Now The value of a is ${a}<br><br>`)
+      // document.write(` The Value of --a is ${--a} <br> `)
+      // document.write(`Now The value of a is ${a}<br><br>`)
+      // document.write(` The Value of a-- is ${a--} <br> `)
+      // document.write(`Now The value of a is ${a}<br><br>`)
 
 
+            // ================Q-14========================
+
+            
+// var a = 2;
+// var b = 1;
+// var result = --a - --b + ++b + b--;
+
+
+
+// document.write("The value of a is: ", a);
+// document.write("<br/>The value of b is: ", b);
+// document.write("<br/>The value of result is: ", result);
+
+            // ================Q-15========================
+
+            
+            
+            var Snack = "Biscut";
+            var age = 33;
+            var maxage = 85;
+            var day = 2;
+            
+            var yearsRemaining = maxage - age ;
+            var totalAmount = yearsRemaining * day;
+            
+            document.write( `<h2>The Lifetime Supply Calculator </h2> `)
+            document.write(` Favorite Snack : ${Snack} <br>`)
+            document.write(`Curreny Age ${age} <br>`)
+            document.write(`Estimated Maximun Age : ${maxage} <br>`)
+            document.write(` Amount Of Snacks Per Day ${day} <br>`)
+      document.write( `You will need ${totalAmount} Biscut to 
+                        last you until the ripe oul age of ${yearsRemaining}`)
 
 
