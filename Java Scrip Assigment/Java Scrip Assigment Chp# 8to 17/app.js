@@ -6,9 +6,9 @@
 
     // ==================== A N S W E R ===================
 
-    // var userNAme= prompt( "Enter Your Name");
-    // alert(userNAme)
-    // alert("Hi Fuzail")
+    var userNAme= prompt( "Enter Your Name");
+    alert(userNAme)
+    alert("Hi Fuzail")
 
    // ============================ Q 2 ============================
 
@@ -239,24 +239,24 @@
     
         // ==================== A N S W E R ===================
 
-        // var pdt1 = "Watch";
-        // var pdt2 = "smart watch";
-        // var pdt1price = 2000;
-        // var pdt2price = 3000;
-        // var qty1 = 2;
-        // var qty2 = 3;
-        // var Shippingcgarges= 250;
-        // var total = (pdt1price*qty1) + ( pdt2price* qty2) + Shippingcgarges 
-        // var Discounted= (total * 10) / 100 
-        // var finalprice = total-Discounted
-        // document.write(`<h1> Shopping Cart </h1> <br>  `)
-        // document.write(`<h3>Price of ${pdt1} is ${pdt1price} <br>`)
-        // document.write(`Quantity of ${pdt1} is ${qty1} <br>`)
-        // document.write(`Price of ${pdt2} is ${pdt2price} <br>`)
-        // document.write(`Quantity of ${pdt2} is ${qty2} <br><br>`)
-        // document.write(`Shipping Charges ${Shippingcgarges} <br> <br>`)
-        // document.write(`Total Cost of Your Order is  ${total} PKR <br> after 10%
-        //                   Discounted The  Price is ${finalprice} PKR `)
+        var pdt1 = "Watch";
+        var pdt2 = "smart watch";
+        var pdt1price = 2000;
+        var pdt2price = 3000;
+        var qty1 = 2;
+        var qty2 = 3;
+        var Shippingcgarges= 250;
+        var total = (pdt1price*qty1) + ( pdt2price* qty2) + Shippingcgarges 
+        var Discounted= (total * 10) / 100 
+        var finalprice = total-Discounted
+        document.write(`<h1> Shopping Cart </h1> <br>  `)
+        document.write(`<h3>Price of ${pdt1} is ${pdt1price} <br>`)
+        document.write(`Quantity of ${pdt1} is ${qty1} <br>`)
+        document.write(`Price of ${pdt2} is ${pdt2price} <br>`)
+        document.write(`Quantity of ${pdt2} is ${qty2} <br><br>`)
+        document.write(`Shipping Charges ${Shippingcgarges} <br> <br>`)
+        document.write(`Total Cost of Your Order is  ${total} PKR <br> after 10%
+                          Discounted The  Price is ${finalprice} PKR `)
 
     // ======================== Q 11 ================================
         // Guess game:
@@ -269,14 +269,14 @@
         
         // ==================== A N S W E R ===================
 
-        // var secretNumber = 7
-        // var userinput =+prompt( "Guess the secret number (between 1 and 10):")
-        // if(userinput===secretNumber){
-        //     alert( "Bingo! Correct answer ")
-        // }
-        // else{
-        //     alert("Close enough to the correct answer")
-        // }
+        var secretNumber = 7
+        var userinput =+prompt( "Guess the secret number (between 1 and 10):")
+        if(userinput===secretNumber){
+            alert( "Bingo! Correct answer ")
+        }
+        else{
+            alert("Close enough to the correct answer")
+        }
     
     // ======================== Q 12 ================================
 
